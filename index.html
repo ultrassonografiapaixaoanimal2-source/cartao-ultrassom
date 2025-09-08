@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartão Digital - Juliana Salatini Soares</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f8f8f8, #e0e0e0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .card img.logo {
+      max-width: 150px;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 1.4rem;
+      margin: 10px 0 5px;
+      color: #222;
+    }
+    h2 {
+      font-size: 1rem;
+      margin: 0 0 20px;
+      font-weight: normal;
+      color: #555;
+    }
+    .btn {
+      display: block;
+      text-decoration: none;
+      margin: 8px 0;
+      padding: 12px;
+      border-radius: 12px;
+      font-weight: bold;
+      color: #fff;
+      transition: 0.3s;
+    }
+    .whatsapp { background: #25D366; }
+    .email { background: #0072c6; }
+    .instagram { background: #E1306C; }
+    .facebook { background: #1877F2; }
+    .linkedin { background: #0A66C2; }
+    .btn:hover {
+      opacity: 0.85;
+    }
+    .qrcode {
+      margin-top: 20px;
+    }
+    .qrcode img {
+      width: 120px;
+      height: 120px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo1.png" alt="Logo Paixão Animal" class="logo">
+    <h1>Juliana Salatini Soares</h1>
+    <h2>Médica Veterinária<br>Especialista em Ultrassom e Ecocardiograma</h2>
+    
+    <a href="https://wa.me/5511996342327" target="_blank" class="btn whatsapp">WhatsApp</a>
+    <a href="mailto:ultrassonografia.paixaoanimal2@gmail.com" class="btn email">E-mail</a>
+    <a href="https://www.instagram.com/ju.doultrassom" target="_blank" class="btn instagram">Instagram</a>
+    <a href="https://www.facebook.com/medvet.usg" target="_blank" class="btn facebook">Facebook</a>
+    
+
+    <div class="qrcode">
+      <p>Escaneie o QR Code:</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/5511982672040" alt="QR Code WhatsApp">
+    </div>
+  </div>
+</body>
+</html>
